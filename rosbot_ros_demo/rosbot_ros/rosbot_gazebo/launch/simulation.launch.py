@@ -76,6 +76,14 @@ def generate_launch_description():
         output='screen'
     )
 
+    aruco_detector_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            PathJoinSubstitution(
+                [FindPackageShare("ros2_aruco"), "launch", "aruco_recognition.launch.py"]
+            )
+        )
+    )
+    
     robots_list = ParseMultiRobotPose("robots").value()
     if len(robots_list) == 0:
         robots_list = {
@@ -131,5 +139,6 @@ def generate_launch_description():
             *spawn_group,
             bridge_camera,        # Added camera bridge
             bridge_camera_info,   # Added camera info bridge
+            aruco_detector_launch
         ]
     )
