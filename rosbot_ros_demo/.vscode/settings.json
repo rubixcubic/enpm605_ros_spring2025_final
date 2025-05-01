@@ -1,0 +1,32 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/zeid/github/ros605_ws/build/frame_demo",
+        "/home/zeid/github/ros605_ws/install/frame_demo/lib/python3.10/site-packages",
+        "/home/zeid/github/ros605_ws/build/rosbot_navigation_demo",
+        "/home/zeid/github/ros605_ws/install/rosbot_navigation_demo/lib/python3.10/site-packages",
+        "/home/zeid/github/ros605_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages",
+        "/home/zeid/github/ros605_ws/build/rosbot_gazebo",
+        "/home/zeid/github/ros605_ws/install/rosbot_gazebo/lib/python3.10/site-packages",
+        "/home/zeid/github/ros605_ws/build/rosbot_bringup",
+        "/home/zeid/github/ros605_ws/install/rosbot_bringup/lib/python3.10/site-packages",
+        "/home/zeid/github/ros605_ws/build/rosbot_controller",
+        "/home/zeid/github/ros605_ws/install/rosbot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/zeid/github/ros605_ws/build/frame_demo",
+        "/home/zeid/github/ros605_ws/install/frame_demo/lib/python3.10/site-packages",
+        "/home/zeid/github/ros605_ws/build/rosbot_navigation_demo",
+        "/home/zeid/github/ros605_ws/install/rosbot_navigation_demo/lib/python3.10/site-packages",
+        "/home/zeid/github/ros605_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages",
+        "/home/zeid/github/ros605_ws/build/rosbot_gazebo",
+        "/home/zeid/github/ros605_ws/install/rosbot_gazebo/lib/python3.10/site-packages",
+        "/home/zeid/github/ros605_ws/build/rosbot_bringup",
+        "/home/zeid/github/ros605_ws/install/rosbot_bringup/lib/python3.10/site-packages",
+        "/home/zeid/github/ros605_ws/build/rosbot_controller",
+        "/home/zeid/github/ros605_ws/install/rosbot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

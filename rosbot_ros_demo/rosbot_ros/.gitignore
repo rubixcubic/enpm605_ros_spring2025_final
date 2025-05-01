@@ -1,0 +1,21 @@
+.vscode
+*.pyc
+
+# ROS 2 build folders
+build
+install
+log
+
+# ROSbots submodules
+rosbot_hardware_interfaces/
+ros_components_description/
+rosbot_controllers/
+husarion_gz_worlds
+gazebosim/gz_ros2_control
+diff_drive_controller
+imu_sensor_broadcaster
+micro-ROS-Agent/
+micro_ros_msgs/
+
+# pyspelling
+*.dic

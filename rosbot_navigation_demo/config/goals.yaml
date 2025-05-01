@@ -1,0 +1,47 @@
+0:
+  position:
+    x: 3.5
+    y: 3.5
+    z: 0.0
+  orientation:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  description: "Red goal position"
+
+1:
+  position:
+    x: 0.0
+    y: 3.5
+    z: 0.0
+  orientation:
+    x: 0.0
+    y: 0.0
+    z: 0.7071
+    w: 0.7071
+  description: "Green goal position"
+
+2:
+  position:
+    x: -2.0
+    y: -1.5
+    z: 0.0
+  orientation:
+    x: 0.0
+    y: 0.0
+    z: -0.7071
+    w: 0.7071
+  description: "Blue goal position"
+
+3:
+  position:
+    x: 4.0
+    y: -2.0
+    z: 0.0
+  orientation:
+    x: 0.0
+    y: 0.0
+    z: 1.0
+    w: 0.0
+  description: "Yellow goal position"

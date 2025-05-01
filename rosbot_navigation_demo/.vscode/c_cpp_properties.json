@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/zeid/github/ros605_ws/install/rosbot_interfaces/include/**",
+        "/home/zeid/github/ros605_ws/install/mecanum_drive_controller/include/**",
+        "/home/zeid/github/ros605_ws/install/imu_sensor_broadcaster/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/zeid/github/ros605_ws/src/enpm605_ros_spring2025/Lecture11b/rosbot_ros_demo/husarion_controllers/mecanum_drive_controller/include/**",
+        "/home/zeid/github/ros605_ws/src/enpm605_ros_spring2025/Lecture11b/rosbot_ros_demo/imu_sensor_broadcaster/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
