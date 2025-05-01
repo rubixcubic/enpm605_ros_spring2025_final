@@ -15,3 +15,18 @@ colcon build --symlink-install --packages-select ros2_aruco_interfaces ros2_aruc
 ```
 
 ## Testing
+
+Start the environment:
+
+```bash
+ros2 launch rosbot_gazebo simulation.launch.py
+```
+
+Check the Gazebo camera is reporting the detected AruCo marker:
+
+
+```bash
+ros2 topic echo /aruco_markers
+```
+
+
